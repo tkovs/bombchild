@@ -13,3 +13,4 @@
 ####Página de histórico
 - [ ] Estilização da página
 - [ ] Lista com todos os produtos acessados no site
+- [ ] Exibição dos últimos 4 produtos acessados

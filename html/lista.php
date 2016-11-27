@@ -16,10 +16,10 @@
 					echo("<li><a href='produto.php?id={$produto['id']}'>{$produto['nome']}</a></li>");
 				}
 
-				if (isset($_COOKIE["testing"])) {
+				if (isset($_COOKIE["cookie1"])) {
 					echo "<h2>4 últimos acessos</h2>";
-					$historico = json_decode($_COOKIE["testing"], true);
-					$lasts = array_slice($historico, -4, 4);
+					$historico = json_decode($_COOKIE["cookie1"], true);
+					$lasts = array_reverse(array_slice($historico, -4, 4));
 
 					foreach ($lasts as $produto) {
 						echo "({$produto['data']}) {$produto['nome']}<br />";

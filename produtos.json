@@ -1,13 +1,90 @@
-{"produtos": [
-	{"nome": "Carabina CBC 7022 WAY Semi-Automático - Polímero - 22 LR",
-	 "descricao": "O rifle CBC 7022 Bolt Action possui sistema semi-automático, sendo o preferido entre os entusiastas. Como qualquer Calibre 22, possui um baixo estampido e recuo praticamente imperceptível, sendo uma opção ideal para o lazer e iniciação no esporte do tiro. Sua versatilidade permite também que seja utilizado na caça de pequenos animais.",
-	 "imagem": "img/sample.jpg",
-	 "preco": "R$ 1.521,00",
-	 "id": "1"},
-	 
-	{"nome": "Revolver matador",
-	 "descricao": "Arma perfeita para o combate",
-	 "imagem": "img/sample.jpg",
-	 "preco": "R$ 950,00",
-	 "id": "2"}
-]}
+{
+	"produtos": [{
+			"nome": "Sniper do vasco",
+			"descricao": "sempre a segunda a acertar o alvo",
+			"imagem": "img/Armalite-AR-31.jpg",
+			"preco": "$2,610.30",
+			"id": "1"
+		},
+
+		{
+			"nome": "Pistola do deadpool",
+			"descricao": "Pistola muito bonita, atira e a bala vai pra onde tu mirar, vermelha do deadpool",
+			"imagem": "img/FMK-Firearms-9C1-G2.jpg",
+			"preco": "$350.91",
+			"id": "2"
+		},
+
+		{
+			"nome": "Metralhadora muito bonita",
+			"descricao": "estilo exercito das américas colombianas",
+			"imagem": "img/American-Tactical-Imports-Omni.jpg",
+			"preco": "$479.00",
+			"id": "3"
+		},
+
+		{
+			"nome": "Ruger 10/22",
+			"descricao": "arma pra destruir onibus em manifestaçao pacífica",
+			"imagem": "img/doi-zoitao.jpg",
+			"preco": "$282.34",
+			"id": "4"
+		},
+
+		{
+			"nome": "EAA Corp Magazine",
+			"descricao": "Pente para cabelos lisos, crespos e carecas",
+			"imagem": "img/EAA-Corp.jpg",
+			"preco": "$29.45",
+			"id": "5"
+		},
+
+		{
+			"nome": "Remington 1911 R1",
+			"descricao": "Alta performance para dias chuvosos ao som de raça negra",
+			"imagem": "img/Remington-1911.jpg",
+			"preco": "$622.56",
+			"id": "6"
+		},
+
+		{
+			"nome": "2016 PSE RDX 400 Crossbow",
+			"descricao": "Bom para caçar cabritas, até 50 disparos por segundo, precisão de 8 metros em torno do alvo.",
+			"imagem": "img/PSE-Archery-RDX.jpg",
+			"preco": "$857.76",
+			"id": "7"
+		},
+
+		{
+			"nome": "Ruger para preguiçosos",
+			"descricao": "Arma boa para preguiçosos, só precisa mirar. Obs.: apoio não incluído.",
+			"imagem": "img/Ruger-Charger.jpg",
+			"preco": "$239.00",
+			"id": "8"
+		},
+
+		{
+			"nome": "Taurus 85FS",
+			"descricao": "MODEL 85 FS w/ULTRA-LITE FRAME",
+			"imagem": "img/Taurus-85FS.jpg",
+			"preco": "$294.08",
+			"id": "9"
+		},
+
+		{
+			"nome": "BinoX-HD 4-16X",
+			"descricao": "Espie quem você quiser com o máximo de segurança, esse produto lhe deixa invisível.",
+			"imagem": "img/American-Technology-Network.jpg",
+			"preco": "$479.00",
+			"id": "10"
+		},
+
+		{
+			"nome": "CRKT Crimson Trace (RBT)",
+			"descricao": "Ainda não descobrimos o que é isso, compre e veja por si mesmo.",
+			"imagem": "img/CRKT-8970.jpg",
+			"preco": "$12.56",
+			"id": "11"
+		}
+	]
+}

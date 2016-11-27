@@ -12,17 +12,17 @@
 
 		<ul>
 			<?php
-				$historico = json_decode($_COOKIE["testing"], true);
+				$historico = json_decode($_COOKIE["cookie1"], true);
 				echo ("<ul>");
 				foreach ($historico as $produto) {
 					echo "<li>({$produto['data']}) <a href='produto.php?id={$produto['id']}'>{$produto['nome']}</a></li>";
 				}
 				echo ("</ul>");
 
-				if (isset($_COOKIE["testing"])) {
+				if (isset($_COOKIE["cookie1"])) {
 					echo "<h2>4 últimos acessos</h2>";
-					$historico = json_decode($_COOKIE["testing"], true);
-					$lasts = array_slice($historico, -4, 4);
+					$historico = json_decode($_COOKIE["cookie1"], true);
+					$lasts = array_reverse(array_slice($historico, -4, 4));
 
 					foreach ($lasts as $produto) {
 						echo "({$produto['data']}) {$produto['nome']}<br />";

@@ -18,15 +18,15 @@
 	</head>
 	<body>
 		<?php
-			if (!isset($_COOKIE["testing"])) {
+			if (!isset($_COOKIE["cookie1"])) {
 				$historico[] = array('id' => $produto["id"], 'nome' => $produto["nome"], 'data' => date("Y-m-d H:i:s"));
 			} else {
-				$historico = $_COOKIE["testing"];
+				$historico = $_COOKIE["cookie1"];
 				$historico = json_decode($historico, true);
 				$historico[] = array('id' => $produto["id"], 'nome' => $produto["nome"], 'data' => date("Y-m-d H:i:s"));
 			}
 
-			setcookie("testing", json_encode($historico), time()+60*60*24*30, '/');
+			setcookie("cookie1", json_encode($historico), time()+60*60*24*30, '/');
 
 			echo("<h1>{$produto["nome"]}</h1>");
 			
@@ -34,10 +34,10 @@
 			echo("<p><strong>Descrição:</strong> {$produto['descricao']}</p>");
 			echo("<p><strong>Preço:<strong> {$produto['preco']}</p>");
 
-			if (isset($_COOKIE["testing"])) {
+			if (isset($_COOKIE["cookie1"])) {
 				echo "<h2>4 últimos acessos</h2>";
-				$historico = json_decode($_COOKIE["testing"], true);
-				$lasts = array_slice($historico, -4, 4);
+				$historico = json_decode($_COOKIE["cookie1"], true);
+				$lasts = array_reverse(array_slice($historico, -4, 4));
 
 				foreach ($lasts as $produto) {
 					echo "({$produto['data']}) {$produto['nome']}<br />";
