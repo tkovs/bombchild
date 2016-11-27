@@ -1,16 +1,16 @@
 ##Tarefas
 
 ####Página principal
-- [ ] Estilização da página
-- [ ] Lista de produtos disponíveis
-- [ ] Exibição dos últimos 4 produtos acessados
+- [x] Estilização da página
+- [x] Lista de produtos disponíveis
+- [x] Exibição dos últimos 4 produtos acessados
 
 ####Página de exibição de um produto
-- [ ] Estilização da página
-- [ ] Lista de detalhes do produto
-- [ ] Exibição dos últimos 4 produtos acessados
+- [x] Estilização da página
+- [x] Lista de detalhes do produto
+- [x] Exibição dos últimos 4 produtos acessados
 
 ####Página de histórico
-- [ ] Estilização da página
-- [ ] Lista com todos os produtos acessados no site
-- [ ] Exibição dos últimos 4 produtos acessados
+- [x] Estilização da página
+- [x] Lista com todos os produtos acessados no site
+- [x] Exibição dos últimos 4 produtos acessados
