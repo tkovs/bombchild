@@ -1,0 +1,13 @@
+{"produtos": [
+	{"nome": "Carabina CBC 7022 WAY Semi-Automático - Polímero - 22 LR",
+	 "descricao": "O rifle CBC 7022 Bolt Action possui sistema semi-automático, sendo o preferido entre os entusiastas. Como qualquer Calibre 22, possui um baixo estampido e recuo praticamente imperceptível, sendo uma opção ideal para o lazer e iniciação no esporte do tiro. Sua versatilidade permite também que seja utilizado na caça de pequenos animais.",
+	 "imagem": "img/sample.jpg",
+	 "preco": "R$ 1.521,00",
+	 "id": "1"},
+	 
+	{"nome": "Revolver matador",
+	 "descricao": "Arma perfeita para o combate",
+	 "imagem": "img/sample.jpg",
+	 "preco": "R$ 950,00",
+	 "id": "2"}
+]}
