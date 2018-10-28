@@ -1,6 +1,6 @@
 ## Tarefas
 
-####P ágina principal
+#### Página principal
 - [x] Estilização da página
 - [x] Lista de produtos disponíveis
 - [x] Exibição dos últimos 4 produtos acessados
